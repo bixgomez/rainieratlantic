@@ -1,0 +1,4 @@
+name: rainieratlantic
+recipe: lamp
+config:
+  webroot: ./webroot
