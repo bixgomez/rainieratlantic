@@ -26,12 +26,14 @@ $( document ).ready(function() {
   var bigMapMove = 96;
   var bigMapMove = ( (+bmheight - +winheight) / 5 );
 
-  // console.log( 'bmwidth: ' + bmwidth );
-  // console.log( 'bmheight: ' + bmheight );
-  // console.log( 'winwidth: ' + winwidth );
-  // console.log( 'winheight: ' + winheight );
-  // console.log( 'gmwidth: ' + gmwidth );
-  // console.log( 'gmheight: ' + gmheight );
+  /*
+  console.log( 'bmwidth: ' + bmwidth );
+  console.log( 'bmheight: ' + bmheight );
+  console.log( 'winwidth: ' + winwidth );
+  console.log( 'winheight: ' + winheight );
+  console.log( 'gmwidth: ' + gmwidth );
+  console.log( 'gmheight: ' + gmheight );
+  */
 
   // Set vars representing big/guide map scale factors.
   var guideWidthFactor = ( bmwidth / gmwidth );

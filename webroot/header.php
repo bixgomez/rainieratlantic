@@ -56,5 +56,5 @@
   <script type="application/javascript" src="js/mapchoice.js"></script>
   <script type="application/javascript" src="js/guidemapselect.js"></script>
 
-	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link rel="stylesheet" href="styles/css/styles.css" type="text/css">
 </head>

@@ -1,25 +1,45 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Add React in One Minute</title>
-  </head>
-  <body>
+<?php
+	// Start the session
+	session_start();
+?>
 
-    <h2>Add React in One Minute</h2>
-    <p>This page demonstrates using React with no build tooling.</p>
-    <p>React is loaded as a script tag.</p>
+<?php include 'application.php'; ?>
+<?php include 'header.php'; ?>
 
-    <!-- We will put our React component inside this div. -->
-    <div id="like_button_container"></div>
+<body>
 
-    <!-- Load React. -->
-    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<div id="app">
+  <div class="inner">	
 
-    <!-- Load our React component. -->
-    <script src="js/like_button.js"></script>
+    <div id="element--bigmap" class="element--primary">
+  		<?php include 'bigmap.php'; ?>
+  	</div>
 
-  </body>
-</html>
+    <div id="element--lilmap" class="element--primary">
+  		<?php include 'lilmap.php'; ?>
+  	</div>
+
+    <div id="element--guidemap" class="element--primary">
+  		<?php include 'guidemap.php'; ?>
+  	</div>
+
+    <div id="element--title" class="element--primary">
+  		<?php include 'title.php'; ?>
+  	</div>
+
+  	<div id="element--nav" class="element--primary">
+  		<?php include 'intro.php'; ?>
+  	</div>
+
+    <?php /* ?>
+  	<div id="element--info" class="element--primary">
+  		<?php include 'info.php'; ?>
+  	</div>
+    <?php */ ?>
+
+  </div>
+</div>
+
+</body>
+
+<?php include 'footer.php'; ?>
