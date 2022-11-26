@@ -1,3 +1,5 @@
+@import "variables.module";
+
 .container {
   padding: 0 2rem;
 }
@@ -29,7 +31,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: $c--link;
   text-decoration: none;
 }
 
@@ -88,8 +90,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: $c--link;
+  border-color: $c--link;
 }
 
 .card h2 {
