@@ -1,7 +1,15 @@
+$c--white: #FFF;
+$c--black: #000;
 $c--link: red;
+$c--site-bg: rgba($c--black, .025);
+$c--font-base: rgba($c--black, .9);
+
 $box-width: 300px;
 $box-height: 200px;
 $font-size--box: 30px;
+
+// https://css-tricks.com/getting-javascript-to-talk-to-css-and-sass/
+// https://www.youtube.com/watch?v=r2YIfBvq11A
 
 :export {
   cLink: $c--link;
