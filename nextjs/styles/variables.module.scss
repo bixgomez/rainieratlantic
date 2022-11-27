@@ -1,5 +1,12 @@
 $c--link: red;
+$box-width: 300px;
+$box-height: 200px;
+$font-size--box: 30px;
 
 :export {
   cLink: $c--link;
+  boxWidth: $box-width;
+  boxHeight: $box-height;
+  fontSizeBox: $font-size--box;
+  overflow: hidden;
 }

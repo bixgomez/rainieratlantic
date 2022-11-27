@@ -1,0 +1,25 @@
+.boxes {
+  background-color: rgba(#000, .125);
+  border: 1px solid rgba(#000, .25);
+  padding: 10px;
+  display: flex;
+  grid-gap: 10px;
+}
+
+.box {
+  background-color: rgba(#000, .125);
+  border: 1px solid rgba(#000, .25);
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: $font-size--box;
+  line-height: 1;
+}
+
+.box-dimensions {
+  width: $box-width;
+  height: $box-height;
+}
