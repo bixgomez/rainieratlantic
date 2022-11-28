@@ -2,3 +2,14 @@ body {
   background-color: $c--site-bg;
   color: $c--font-base;
 }
+
+a {
+  color: $c--link;
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: underline;
+  }
+}

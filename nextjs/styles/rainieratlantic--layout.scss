@@ -1,0 +1,72 @@
+body.page--rainieratlantic {
+  background-color: #343434;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+}
+
+#rainieratlantic {
+  width: 850px;
+  height: 640px;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(#FFF, .125);
+}
+
+.element {
+  position: absolute;
+}
+
+.element--bigmap {
+  background-color: rgba(#FFF, .12);
+  width: 310px;
+  height: 346px;
+  top: 0;
+  left: 0;
+}
+
+.element--lilmap {
+  background-color: rgba(#FFF, .12);
+  width: 315px;
+  height: 346px;
+  top: 0;
+  left: 305px;
+}
+
+.element--guidemap {
+  background-color: rgba(#FFF, .09);
+  width: 620px;
+  height: 246px;
+  top: 346px;
+  left: 0;
+}
+
+.element--title {
+  background-color: rgba(#FFF, .03);
+  width: 230px;
+  height: 75px;
+  top: 0;
+  left: 620px;
+}
+
+.element--nav {
+  background-color: rgba(#FFF, .06);
+  width: 230px;
+  height: 517px;
+  top: 75px;
+  left: 620px;
+}
+
+.element--info {
+  background-color: rgba(#FFF, .03);
+  width: 865px;
+  height: 48px;
+  top: 592px;
+  left: 0;
+  overflow-y: scroll;
+}
